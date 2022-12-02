@@ -55,4 +55,12 @@ Hello World !
 content
 {% endpullquote %}
 ### Jsfiddle
-{% jsfiddle shorttag %}
+{% jsfiddle shorttag html, 500, 100 %}
+
+### Include Posts
+
+```
+{% post_path filename %}
+{% post_link filename [title] [escape] %}
+```
+{% post_link hello-world %}

@@ -5,6 +5,7 @@ date: 2021-10-21 23:35:24
 tags: [nlp, papers]
 categories: nlp
 feature: true
+cover: https://www.hollywoodreporter.com/wp-content/uploads/2018/05/transformers_last_knight_2017_5_copy_-_h_2018.jpg?w=1024
 description: The Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. In this work the authors propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs.
 mathjax: true
 ---

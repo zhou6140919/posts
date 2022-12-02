@@ -4,6 +4,7 @@ author: Zhou Tong
 date: 2022-12-02 22:24:59
 tags: [hexo]
 categories: frontend
+cover: https://miro.medium.com/max/1200/1*zGn8GFhpCNdbO3wSvJO2JQ.jpeg
 feature: true
 ---
 
@@ -55,7 +56,10 @@ Hello World !
 content
 {% endpullquote %}
 ### Jsfiddle
-{% jsfiddle shorttag html, 500, 100 %}
+```
+{% jsfiddle shorttag [tabs] [skin] [width] [height] %}
+```
+{% jsfiddle zhou6140919/jhw1f0gL/3 js,html,css,result dark %}
 
 ### Include Posts
 

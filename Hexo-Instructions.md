@@ -8,6 +8,8 @@ cover: https://miro.medium.com/max/1200/1*zGn8GFhpCNdbO3wSvJO2JQ.jpeg
 feature: true
 ---
 
+<!-- more -->
+
 ## Quick Start
 
 Create a new post

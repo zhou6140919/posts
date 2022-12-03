@@ -6,9 +6,12 @@ tags: [nlp, papers]
 categories: nlp
 cover: https://www.codemotion.com/magazine/wp-content/uploads/2020/05/bert-google.png
 feature: true
-description: BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.
 mathjax: true
 ---
+
+BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.
+
+<!-- more -->
 
 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 

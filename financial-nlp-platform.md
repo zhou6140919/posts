@@ -13,7 +13,7 @@ feature: true
 
 :::warning Links
 
-{% link Product Trial https://cognitive.langboat.com/product/finance-extraction %}
+[Product Trial](https://cognitive.langboat.com/product/finance-extraction)
 
 :::
 

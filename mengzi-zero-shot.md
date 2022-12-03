@@ -13,17 +13,17 @@ feature: true
 
 :::warning Links
 
- - {% link Model https://huggingface.co/Langboat/mengzi-t5-base-mt %}
- - {% link SDK Repo https://github.com/Langboat/mengzi-zero-shot %}
+ - [Model](https://huggingface.co/Langboat/mengzi-t5-base-mt)
+ - [SDK Repo](https://github.com/Langboat/mengzi-zero-shot)
 
 :::
 
 All interface capabilities provided in this project are based on Mengzi-T5-base-MT. This model is a multi task model, which is based on Mengzi-T5-base and trained by using 27 additional datasets and 301 prompts. This project provides the capabilities of entity extraction, semantic similarity, financial relationship extraction, advertisement generation, intention classification in medical field, emotion classification, comment object extraction, news classification, etc.
 
 # Navigation
-* [Quick Start](#quick-start)
-* [Interface Capabilities](#interface-capabilities)
-* [Interface Description](#interface-description)
+* [Quick Start](#Quick-Start)
+* [Interface Capabilities](#Interface-Capabilities)
+* [Interface Description](#Interface-Description)
 
 # Quick Start
 ## Create a new environment
@@ -46,16 +46,16 @@ python test.py
 
 | Interface Capabilities                 | Brief Description                                             |
 | ---------------- | ------------------------------------------------------------ |
-| [Entity Extraction](#entity-extraction) | Extract the named entities in the text and provide the categories of the corresponding entities, such as addresses, book titles, companies, games, governments, movies, names, organizations, positions, attractions, etc. |
-| [Semantic Similarity](#semantic-similarity)       | Measures the semantic similarity between two texts. |
-| [Financial Relationship Extraction](#financial-relationship-extraction)   | Determine which relationship two entities in the text belong to, such as issuing, being issued, capital injection, increase in holdings, etc.            |
-| [Advertisement Generation](#advertisement-generation)      | Given the keyword information of the product, generate a reasonable advertisement.                    |
-| [Medical Field Intent Classification](#medical-field-intent-classification)  | According to the input text in the medical field, identify user query intentions, such as index interpretation, disease diagnosis, medical advice, treatment plan, etc. |
-| [Sentiment Classification](#sentiment-classification)          | Classify text into sentiment polarity categories (positive, negative). |
-| [Comment Object Extraction](#comment-object-extraction)          | For a given comment text, automatically extract the evaluation objects contained in it.                |
-| [News Classification](#news-classification)          | Classify the input news text, such as agriculture, culture, e-sports, sports, finance, entertainment, tourism, education, finance, military, real estate, automobile, stock, international, etc. |
-| [Name Extraction](#name-extraction) | Extract the name of the person in the text. |
-| [Company Name Extraction](#company-name-extraction) | Extract the company name in the text. |
+| [Entity Extraction](#Entity-Extraction) | Extract the named entities in the text and provide the categories of the corresponding entities, such as addresses, book titles, companies, games, governments, movies, names, organizations, positions, attractions, etc. |
+| [Semantic Similarity](#Semantic-Similarity)       | Measures the semantic similarity between two texts. |
+| [Financial Relationship Extraction](#Financial-Relationship-Extraction)   | Determine which relationship two entities in the text belong to, such as issuing, being issued, capital injection, increase in holdings, etc.            |
+| [Advertisement Generation](#Advertisement-Generation)      | Given the keyword information of the product, generate a reasonable advertisement.                    |
+| [Medical Field Intent Classification](#Medical-Field-Intent-Classification)  | According to the input text in the medical field, identify user query intentions, such as index interpretation, disease diagnosis, medical advice, treatment plan, etc. |
+| [Sentiment Classification](#Sentiment-Classification)          | Classify text into sentiment polarity categories (positive, negative). |
+| [Comment Object Extraction](#Comment-Object-Extraction)          | For a given comment text, automatically extract the evaluation objects contained in it.                |
+| [News Classification](#News-Classification)          | Classify the input news text, such as agriculture, culture, e-sports, sports, finance, entertainment, tourism, education, finance, military, real estate, automobile, stock, international, etc. |
+| [Name Extraction](#Name-Extraction) | Extract the name of the person in the text. |
+| [Company Name Extraction](#Company-Name-Extraction) | Extract the company name in the text. |
 
 
 # Interface Description

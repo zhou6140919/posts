@@ -5,7 +5,6 @@ date: 2021-10-27 23:37:54
 tags: [nlp, papers]
 categories: nlp
 cover: https://www.codemotion.com/magazine/wp-content/uploads/2020/05/bert-google.png
-feature: true
 mathjax: true
 ---
 

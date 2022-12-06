@@ -4,7 +4,6 @@ author: Zhou Tong
 date: 2021-10-21 23:35:24
 tags: [nlp, papers]
 categories: nlp
-feature: true
 cover: https://www.hollywoodreporter.com/wp-content/uploads/2018/05/transformers_last_knight_2017_5_copy_-_h_2018.jpg?w=1024
 mathjax: true
 ---

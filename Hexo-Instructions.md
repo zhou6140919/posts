@@ -5,7 +5,6 @@ date: 2022-12-02 22:24:59
 tags: [hexo]
 categories: frontend
 cover: https://miro.medium.com/max/1200/1*zGn8GFhpCNdbO3wSvJO2JQ.jpeg
-feature: true
 ---
 
 <!-- more -->

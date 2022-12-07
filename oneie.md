@@ -79,11 +79,7 @@ Given an input sentence of L words, the authors obtain the contextualized repres
 
 1. The authors use a feedforward network FFN to compute a score vector $\hat{y}_i = FFN(x_i)$ for each word, where each value in $\hat{y}_i$ represents the score for a tag in a target tag set. The authors use the BIO tag scheme, in which the prefix B- marks the beginning of a mention, and I- means inside of a mention. A token not belonging to any mention is tagged with O.
 2. the authors use a conditional random fields (CRFs) layer to capture the dependencies between predicted tags (e.g., an I-PER tag should not follow a B-GPE tag)
-3. Similar to [Named Entity Recognition with Bidirectional LSTM-CNNs](https://arxiv.org/abs/1511.08308), the authors calculate the score of a tag path $\hat{z} = {\hat{z}_1,...,\hat{z}_L}$ as
-    ![a](/images/f2.jpeg)
-    <!-- $s(X,\hat{z}) = \sum_{i=1}^{L} \hat{y}\_{i,\hat{z}\_{i}} + \sum_{i=1}^{L+1} A\_{\hat{z}\_{i-1},\hat{z}\_{i}}$ -->
-
-    where $X = {x_1,...,x_L}$ is the contextualized representations of the input sequence, $\hat{y}\_{i,\hat{z}\_i}$ is the $\hat{z}\_{i}$ -th component of the score vector $\hat{y}\_{i}$, and $A\_{\hat{z}\_{i-1},\hat{z}\_{i}}$ is the $ (\hat{z}\_{i-1},\hat{z}\_{i}) $ entry in matrix $A$ that indicates the transition score from tag $\hat{z}\_{i-1}$ to $\hat{z}\_{i}$.
+3. Similar to [Named Entity Recognition with Bidirectional LSTM-CNNs](https://arxiv.org/abs/1511.08308), the authors calculate the score of a tag path $\hat{z} = {\hat{z}\_{1},...,\hat{z}\_{L}}$ as $s(X,\hat{z}) = \sum_{i=1}^{L} \hat{y}\_{i,\hat{z}\_{i}} + \sum_{i=1}^{L+1} A\_{\hat{z}\_{i-1},\hat{z}\_{i}}$ where $X = {x\_{1},...,x\_{L}}$ is the contextualized representations of the input sequence, $\hat{y}\_{i,\hat{z}\_{i}}$ is the $\hat{z}\_{i}$ -th component of the score vector $\hat{y}\_{i}$, and $A\_{\hat{z}\_{i-1},\hat{z}\_{i}}$ is the $ (\hat{z}\_{i-1},\hat{z}\_{i}) $ entry in matrix $A$ that indicates the transition score from tag $\hat{z}\_{i-1}$ to $\hat{z}\_{i}$.
     The weights in A are learned during training.
 4. The authors append two special tags start and end to the tag path as $\hat{z}_0$ and $\hat{z}_L+1$ to denote the start and end of the sequence.
 5. At the training stage, the authors maximize the log-likelihood of the gold-standard tag path as 

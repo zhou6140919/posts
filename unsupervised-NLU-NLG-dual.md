@@ -12,7 +12,7 @@ mathjax: true
 
 <!-- more -->
 
-See [original papaer](https://aclanthology.org/2020.acl-main.63) for more details.
+See [original paper](https://aclanthology.org/2020.acl-main.63) for more details.
 
 ## Introduction
 
